@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puka Retreat | Invoice Admin Login</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="page page-login">
+  <div class="bg-blur bg-blur-a" aria-hidden="true"></div>
+  <div class="bg-blur bg-blur-b" aria-hidden="true"></div>
+
+  <main class="login-layout">
+    <section class="brand-panel">
+      <p class="eyebrow">Puka Retreat</p>
+      <h1>Client Invoice Portal</h1>
+      <p>
+        Securely create and manage guest invoices, then generate a shareable QR-ready
+        link for each bill.
+      </p>
+    </section>
+
+    <section class="panel auth-panel">
+      <h2>Admin Sign In</h2>
+      <p class="muted">Use your credentials to access the dashboard.</p>
+
+      <form id="loginForm" class="stack-form" novalidate>
+        <label class="field">
+          <span>Username</span>
+          <input id="username" name="username" type="text" autocomplete="username" required>
+        </label>
+
+        <label class="field">
+          <span>Password</span>
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+        </label>
+
+        <p id="loginError" class="form-error" aria-live="polite"></p>
+
+        <button type="submit" class="btn btn-primary btn-block">Enter Dashboard</button>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/login.js"></script>
+</body>
+</html>

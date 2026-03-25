@@ -1,1 +1,13 @@
-[]
+[{
+  "id": "INV-1774404831181-02A0711D",
+  "propertyName": "Puka Retreat",
+  "guestName": "Exioglou",
+  "guestLastName": "Menelaos",
+  "reservationNumber": "6009632464",
+  "checkInDate": "2026-03-25",
+  "checkOutDate": "2026-03-26",
+  "commissionableAmount": 55.2,
+  "commission": 5.5,
+  "total": 60.7,
+  "createdAt": "2026-03-25T02:13:51.181Z"
+}]
